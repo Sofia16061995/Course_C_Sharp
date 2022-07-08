@@ -4,7 +4,8 @@ int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Write a number b: ");
 int b = int.Parse(Console.ReadLine());
 
-if (a * a == b)
+if (b * b == a)
 Console.WriteLine("Да");
 else 
 Console.WriteLine("Нет");
+Console.WriteLine("a * a");
